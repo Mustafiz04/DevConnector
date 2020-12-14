@@ -1,0 +1,6 @@
+{
+    "mongoURL" : "mongodb+srv://mustafiz123:mustafiz123@devconnector.s8b1j.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwttoken" : "mysecrettokenforjsonwebtoken",
+    "githubClientId": "4908ae2ad01dafd46b35",
+    "githubClientSecret" : "6537cbf56a03cd50f6252fb50ee0b6970f473ef9"
+}
