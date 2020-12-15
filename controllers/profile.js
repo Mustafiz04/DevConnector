@@ -3,7 +3,6 @@ const Profile = require("../models/profile");
 
 const request = require('request');
 const config = require('config');
-const { json } = require("express");
 
 
 exports.getProfile = async (req, res) => {

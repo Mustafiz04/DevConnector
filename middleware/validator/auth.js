@@ -29,6 +29,10 @@ exports.validateEducation = [
     check('fieldofstudy').not().isEmpty().withMessage("Field of study is required")
 ]
 
+exports.validatePost = [
+    check('text').not().isEmpty().withMessage("Text is required")
+]
+
 exports.isRequestValidated = (req, res, next) => {
     const errors = validationResult(req);
     if( errors.array().length > 0 ){
